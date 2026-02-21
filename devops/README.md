@@ -14,9 +14,10 @@ The project is **Dockerized** and can be run via **Docker Compose**. User-select
 ## how to run Web App
 $ sudo apt install docker.io
 $ sudo apt install docker-compose
+$ chmod +x run.sh
 $ sudo ./run.sh
 
-warning: Web App use port 5000 to serving Web 
+warning: this app use port 5000 to serving Web so port 5000 must be free or change the app port
 
 ## auther
 Mohammad Mahdi Kharaghani
